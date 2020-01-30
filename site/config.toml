@@ -1,0 +1,259 @@
+# Page settings
+
+baseurl = "http://deanshanahan.com/"
+languageCode = "en-GB"
+title = "Dean Shanahan's CV"
+theme = "orbit"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Dean Shanahan's CV"
+    author = "Dean Shanahan"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-6.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Dean Shanahan"
+        tagline = "Cloud Engineering Consultant"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/deanshanahan"
+        title = "linkedin.com/in/deanshanahan"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/deanshanahan"
+        title = "github.com/deanshanahan"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "MEng Mechanical Engineering"
+        college = "University of Limerick"
+        dates = "2016 - 2017"
+
+        [[params.education.list]]
+        degree = "BEng Electronic and Computer Engineering"
+        college = "University of Limerick"
+        dates = "2012 - 2016"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "Irish"
+        level = "Proficient"
+
+        [[params.language.list]]
+        language = "German"
+        level = "Proficient"
+
+        [[params.language.list]]
+        language = "Dutch"
+        level = "Proficient"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Guitar"
+
+        [[params.interests.list]]
+        interest = "Rugby"
+
+        [[params.interests.list]]
+        interest = "Snowboarding"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "About"
+        summary = "I am an experienced engineer that enjoys a dynamic and fast-paced working environment. I have worked in Ireland, Germany, the Netherlands, France, and Japan, and view every challenge as an opportunity for growth. I have a passion for solving problems and am always keen to expand my knowledge and experience to new domains."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experience"
+
+        [[params.jobs.list]]
+        position = "Cloud Engineering Consultant"
+        dates = "February 2020 - Present"
+        company = "Xebia, Hilversum, Netherlands"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "Cloud Engineering Consultant"
+        dates = "October 2017 - January 2020"
+        company = "Accenture, Amsterdam, Netherlands"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "Teaching and Laboratory Assistant"
+        dates = "January 2015 - September 2017"
+        company = "University of Limerick, Limerick, Ireland"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "UAV Systems Engineer"
+        dates = "June 2014 - August 2015"
+        company = "Spectair Group, Dusseldorf, Germany"
+        details = ""
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "Here are a few of the projects I am currently working on."
+
+        [[params.projects.list]]
+        title = "GCP IAC Tools"
+        url = "https://github.com/deanshanahan/gcp-iac-tools"
+        tagline = "An Infrastructure-as-Code tooling container for managing Google Cloud Platform."
+
+        [[params.projects.list]]
+        title = "AWS IAC Tools"
+        url = "https://github.com/deanshanahan/aws-iac-tools"
+        tagline = "An Infrastructure-as-Code tooling container for managing Amazon Web Services."
+
+        [[params.projects.list]]
+        title = "GCP IAC Tools"
+        url = "https://github.com/deanshanahan/azure-iac-tools"
+        tagline = "An Infrastructure-as-Code tooling container for managing Microsoft Azure."
+
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "Google Cloud"
+        level = "80%"
+                
+        [[params.skills.list]]
+        skill = "AWS"
+        level = "40%"
+
+        [[params.skills.list]]
+        skill = "Azure"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Openstack"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "Linux"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Windows"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Docker"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Kubernetes"
+        level = "40%"
+
+        [[params.skills.list]]
+        skill = "Terraform"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Ansible"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Circle CI"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "GitLab CI"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Jenkins"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "C/C++"
+        level = "70%"
+        
+        [[params.skills.list]]
+        skill = "JavaScript"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "Java"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "Bash"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Mathematics"
+        level = "90%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Dean Shanahan"
